@@ -1,0 +1,79 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.Nav-link {
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'roboto';
+  color: black;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+}
+.description {
+  background-color: transparent;
+  border: none;
+  margin-top: 05px;
+  font-size: 16px;
+  font-family: 'roboto';
+  color: #7d7d7d;
+}
+.courses {
+  background-color: #f27a44;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 13px;
+  margin-left: 10px;
+  width: 100px;
+}
+.buttons-container {
+  margin-top: 10px;
+  width: fit-content;
+}
+.mobile-view-approach {
+  display: none;
+}
+/* Styles for Mobile screens */
+@media screen and (max-width: 468px) {
+  .mobile-view-approach {
+    display: inline;
+  }
+  .buttons-container {
+    order: 1;
+  }
+  .hamburgerButton {
+    order: 0;
+    font-size: 40px;
+  }
+  .navigation-container {
+    display: none;
+  }
+  .nav-button {
+    background-color: transparent;
+    margin-top: 2px;
+    margin: 8px;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .nav-bar-mb-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+  }
+  .Nav-link {
+    border-bottom: 1px solid #7d7d7d;
+  }
+}

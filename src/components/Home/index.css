@@ -1,0 +1,144 @@
+.Home-page-container {
+  background: #f8f1d340;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.home-page-description-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 400px;
+  margin: 40px;
+  flex-wrap: wrap;
+  width: Hug (522px);
+  height: Hug (332px);
+  gap: 8px;
+}
+.theory {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px;
+  /*line-height: 24px; */
+  text-align: left;
+}
+.main-description {
+  font-family: Poppins;
+  line-height: 100px;
+  text-align: left;
+  padding: 0px;
+  font-size: 70px;
+  font-weight: 700;
+  /* line-height: 100px;*/
+
+  text-align: left;
+  font-family: 'Roboto';
+}
+.separator {
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.signup-button {
+  background-color: #f27a44;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 13px;
+  margin-left: 10px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.pointer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-page-image {
+  height: 400px;
+}
+.elipse {
+  padding: 10px;
+  margin-right: 70px;
+}
+/* Styles for tablet screens */
+@media screen and (max-width: 768px) {
+  .theory {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  .main-description {
+    font-size: 50px;
+  }
+  .separator {
+    font-size: 40px;
+  }
+  .home-page-description-container {
+    flex-wrap: wrap;
+  }
+  .theory {
+    font-size: 14px;
+    color: red;
+  }
+  .home-page-image {
+    height: 300px;
+  }
+}
+/* styles for mobile screens */
+@media screen and (max-width: 480px) {
+  .theory {
+    font-size: 10px;
+  }
+  .main-description {
+    font-size: 30px;
+  }
+  .separator {
+    font-size: 30px;
+  }
+  .home-page-description-container {
+    flex-wrap: wrap;
+  }
+  .theory {
+    font-size: 14px;
+    color: blue;
+  }
+  .home-page-image {
+    height: 300px;
+  }
+  .home-page-description-container {
+    order: 1;
+  }
+  .image-container {
+    order: 0;
+  }
+  .Home-page-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 150vw;
+  }
+  .border {
+    order: 2;
+    align-self: flex-end;
+    transform: rotate(90deg);
+  }
+  .extra-pointer {
+    display: none;
+  }
+}

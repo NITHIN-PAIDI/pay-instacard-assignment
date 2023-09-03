@@ -1,0 +1,225 @@
+.border-design {
+  justify-content: flex-start;
+  height: 500px;
+}
+.border-symbol {
+  height: 50px;
+}
+.main-description {
+  font-size: 30px;
+  line-height: 40px;
+}
+.separator {
+  font-size: 30px;
+  padding: 0px;
+  line-height: 0px;
+}
+.description-container-1 {
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+.text-2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.eplorebutton {
+  background-color: #f27a44;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 13px;
+  margin-left: 10px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.border-design {
+  justify-content: flex-start;
+  height: 500px;
+}
+.pricing-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+}
+.pricing-image-container {
+  background-color: #f8e27e;
+  background-size: cover;
+  width: 200px;
+  height: 100px; /*half of width*/
+  border-radius: 0 0 150px 150px;
+  transform: rotate(-25deg);
+  background-position: 107px 107px bottom;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pricingImage {
+  height: 300px;
+  transform: rotate(20deg);
+}
+.container {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.booking-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+}
+.booking-image {
+  height: 400px;
+}
+.input-container {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  text-align: left;
+  padding: 10px;
+  background-color: #dee3e0;
+  margin-top: 10px;
+  border: none;
+  width: 300px;
+  height: 40.53px;
+  padding: 0px 0px 0px 17.509729385375977px;
+}
+.labelElement {
+  font-weight: 600;
+}
+.date-container {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.selecetion-container {
+  width: 150px;
+  margin-right: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.functionalButtons {
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+}
+.value-container {
+  width: 80px;
+  display: flex;
+  padding: 0px;
+  text-align: center;
+}
+.booking-count-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  margin-top: 20px;
+}
+.star-room-container {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.booking-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.booking-details {
+  width: 400px;
+}
+.BookNow-Button {
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+}
+.booking-details {
+  box-shadow: 0px 4.424776077270508px 6.210212707519531px 0px #00000007;
+  box-shadow: 0px 14.861903190612793px 20.858810424804688px 0px #0000000b;
+  box-shadow: 0px 66.53697204589844px 93.38522338867188px 0px #00000012;
+  padding-left: 10px;
+}
+.arrival {
+  margin: 0px;
+}
+/* mobile view */
+@media screen and (max-width: 468px) {
+  .border-symbol {
+    display: none;
+  }
+  .description-container-1 {
+    order: 1;
+  }
+  .pricing-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricingImage {
+    height: 190px;
+  }
+  .pricing-image-container {
+    background-color: #f8e27e;
+    background-size: cover;
+    width: 100px;
+    height: 50px; /*half of width*/
+    border-radius: 0 0 150px 150px;
+    transform: rotate(-25deg);
+    background-position: 107px 107px bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .booking-container {
+    flex-wrap: wrap;
+  }
+  .booking-image {
+    height: 300px;
+    margin-bottom: 40px;
+  }
+}
